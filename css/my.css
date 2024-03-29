@@ -1,0 +1,115 @@
+body, html {
+    background-color: #f9f3cf;
+}
+
+.nav {
+    background-color: #aa512f;
+    min-height: 100%;
+}
+
+
+.hakkımda-container {
+    margin: 20px;
+    padding: 20px;
+}
+
+.text-card{
+    background-color: #ddbc89;
+    border-radius: 5%;
+}
+
+.card-logo {
+    width: 250px; 
+    height: auto; 
+    font-size: 14px; 
+    background-color: #ddbc89;
+
+}
+
+.card-img-top {
+    max-width: 100%; 
+    height: auto;
+}
+
+.card-title {
+    font-size: 18px; 
+}
+
+.card-text {
+    font-size: 12px; 
+}
+
+.kodfun {
+    display: flex;
+    height: 20rem;
+    gap: 1rem;
+}
+
+.kodfun > div {
+    flex: 1;
+    border-radius: 1rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+    transition: all .8s cubic-bezier(.25, .4, .45, 1.4);
+}
+
+.kodfun > div:hover {
+    flex: 5;
+}
+
+.scratch-container , .scratch-container-2 {
+    width: 100%;
+    height: 600px; 
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.card-scratch {
+    background-color: #ddbc89;
+    border-radius: 5%;
+}
+
+.card {
+    background-color: #ede7cf;
+}
+
+footer{
+    padding: 5%;
+    align-items: center;
+    justify-content: center;
+    display: grid;
+    gap: 10px;
+    background-color: #aa512f;
+}
+
+.footer-container{
+    display: flex;
+    gap: 30px;
+}
+.social-media-buttons {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 24px;
+    list-style: none;
+    flex-direction: row;
+}
+
+.social-media-buttons a {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    outline: 2px solid #eeedbe;
+    cursor: pointer;
+    transition: all 0.5s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    background-color: #f9f3cf;
+}
+
+.social-media-buttons a i {
+    font-size: 25px;
+}
